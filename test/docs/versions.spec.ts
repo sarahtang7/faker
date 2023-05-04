@@ -20,6 +20,7 @@ describe('docs versions', () => {
       const releaseVersions = oldVersions.filter(({ version }) =>
         semver.valid(version)
       );
+
       const latestMajorRelease = semver.major(releaseVersions[0].version);
       for (let i = 0; i < releaseVersions.length; i++) {
         const { version, link } = releaseVersions[i];
