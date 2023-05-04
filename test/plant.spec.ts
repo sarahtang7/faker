@@ -4,10 +4,7 @@ import { seededTests } from './support/seededRuns';
 
 const NON_SEEDED_BASED_RUN = 5;
 
-const functionNames = [
-  'tree',
-  'flower',
-] as const;
+const functionNames = ['tree', 'flower'] as const;
 
 describe('plant', () => {
   seededTests(faker, 'plant', (t) => {

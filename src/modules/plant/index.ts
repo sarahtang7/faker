@@ -28,7 +28,7 @@ export class PlantModule {
    */
   tree(): string {
     const definition = this.faker.helpers.arrayElement(
-        this.faker.definitions.plant.tree
+      this.faker.definitions.plant.tree
     );
     return this.faker.helpers.fake(definition);
   }
@@ -43,7 +43,7 @@ export class PlantModule {
    */
   flower(): string {
     const definition = this.faker.helpers.arrayElement(
-        this.faker.definitions.plant.flower
+      this.faker.definitions.plant.flower
     );
     return this.faker.helpers.fake(definition);
   }

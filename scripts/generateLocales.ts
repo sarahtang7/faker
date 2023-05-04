@@ -68,7 +68,7 @@ const definitionsTypes: DefinitionType = {
   music: 'MusicDefinition',
   person: 'PersonDefinition',
   phone_number: 'PhoneNumberDefinition',
-  plant: 'PlanDefinition',
+  plant: 'PlantDefinition',
   science: 'ScienceDefinition',
   system: 'SystemDefinition',
   vehicle: 'VehicleDefinition',
